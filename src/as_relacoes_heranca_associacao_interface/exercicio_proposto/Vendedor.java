@@ -5,6 +5,7 @@ public class Vendedor extends Funcionario{
         super(nome, idade, cpf, salario);
     }
 
+    //sobrescrita de método
     public Double calculaSalariocomComBonus(Double salario){
         Double taxa = 0.1;
         Double valorBonus = salario * taxa;

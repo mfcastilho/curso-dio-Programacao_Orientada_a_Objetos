@@ -6,6 +6,7 @@ public class Gerente extends Funcionario{
         super(nome, idade, cpf, salario);
     }
 
+    //sobrescrita de método
     @Override
     public Double calculaSalariocomComBonus(Double salario){
         Double taxa = 0.2;
