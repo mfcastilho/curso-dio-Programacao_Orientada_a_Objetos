@@ -1,4 +1,4 @@
-package fundamentos.exercicio;
+package fundamentos;
 
 public class Livro {
     private String titulo;

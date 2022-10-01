@@ -1,4 +1,4 @@
-package fundamentos.exercicio;
+package fundamentos;
 
 public class Principal {
     public static void main(String[] args){
