@@ -6,9 +6,9 @@ public class Carro {
     Integer ano;
     String placa;
     String cor;
-    Integer capacidadeTanque;
+    Double capacidadeTanque;
 
-    public Carro(String modelo, String marca, Integer ano, String placa,String cor,Integer capacidadeTanque) {
+    public Carro(String modelo, String marca, Integer ano, String placa,String cor,Double capacidadeTanque) {
         this.modelo = modelo;
         this.marca = marca;
         this.ano = ano;
@@ -25,5 +25,13 @@ public class Carro {
                 ", ano=" + ano +
                 ", placa='" + placa + '\'' +
                 '}';
+    }
+
+    public Double calculaValorPraEncherTanque(Double valorGasolina){
+        return valorGasolina * capacidadeTanque;
+    }
+
+    public String calculaValorPraEncherTanque(Double valorGasolina, String modelo){
+        return calculaValorPraEncherTanque(valorGasolina).toString();
     }
 }
