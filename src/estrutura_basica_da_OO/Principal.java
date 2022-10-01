@@ -6,7 +6,7 @@ public class Principal {
 
         System.out.println(carro);
 
-        System.out.println(carro.calculaValorPraEncherTanque(5.3, carro.modelo));
+        System.out.println(carro.calculaValorPraEncherTanque(5.3, carro.getModelo()));
 
     }
 }
