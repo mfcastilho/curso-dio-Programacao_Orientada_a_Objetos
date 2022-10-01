@@ -1,4 +1,4 @@
-package as_relacoes_heranca_associacao_interface;
+package as_relacoes_heranca_associacao_interface.heranca;
 
 public class Carro extends Veiculo{
     public Carro(String modelo, String marca, Integer ano, String placa, String cor, Double capacidadeTanque) {
